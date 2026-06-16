@@ -70,7 +70,7 @@ if st.sidebar.button("Reset All Filters", use_container_width=True):
     st.rerun()
 
 st.sidebar.markdown("---")
-st.sidebar.caption("EDA Course Project · Ali Hassan Sherazi · Submission: 05-June-2026")
+st.sidebar.caption("EDA Course Project")
 
 filtered = apply_filters(df, year_range, tournaments, teams, score_range, search_text)
 
